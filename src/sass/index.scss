@@ -1,0 +1,11 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+
+@import './utils/variables';
+
+@import './base/base';
+@import './base/container';
+
+@import './layout/header';
+@import './layout/main';
+@import './layout/footer';
+@import './layout/modal';
