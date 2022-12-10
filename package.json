@@ -1,15 +1,8 @@
 {
   "name": "parcel-project-template",
   "version": "2.0.0",
-  "homepage": "https://Dmytro1117.github.io/team_proj",
   "description": "",
-  "source": "src/index.html",
-  "targets": {
-    "default": {
-      "distDir": "./output",
-      "publicUrl": "/goit-js-team-project/"
-    }
-  },
+  "homepage": "https://Dmytro1117.github.io/team_proj",
   "scripts": {
     "start": "parcel src/index.html",
     "build": "parcel build src/*.html --public-url /team_proj/"
@@ -19,7 +12,7 @@
     "url": "git+https://github.com/goitacademy/parcel-project-template.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/goitacademy/parcel-project-template/issues"
