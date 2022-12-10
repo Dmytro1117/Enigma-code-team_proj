@@ -11,18 +11,18 @@
     }
   },
   "scripts": {
-    "start": "parcel --open --no-cache --port 7777",
-    "build": "parcel build"
+    "start": "parcel src/index.html",
+    "build": "parcel build src/*.html --public-url /team_proj/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Dima-Davidenko/goit-js-team-project.git"
+    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Dima-Davidenko/goit-js-team-project/issues"
+    "url": "https://github.com/goitacademy/parcel-project-template/issues"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.8.0",
