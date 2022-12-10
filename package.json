@@ -1,13 +1,13 @@
 {
-  "name": "goit-js-team-project",
+  "name": "team_proj",
   "version": "1.0.0",
-  "homepage": "https://github.com/Dima-Davidenko/goit-js-team-project",
+  "homepage": "https://github.com/Dmytro1117/team_proj",
   "description": "",
   "source": "src/index.html",
   "targets": {
     "default": {
       "distDir": "./output",
-      "publicUrl": "/goit-js-team-project/"
+      "publicUrl": "/team_proj/"
     }
   },
   "scripts": {
@@ -16,13 +16,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Dima-Davidenko/goit-js-team-project.git"
+    "url": "git+https://github.com/Dmytro1117/team_proj"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Dima-Davidenko/goit-js-team-project/issues"
+    "url": "https://github.com/Dmytro1117/team_proj/issues"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.8.0",
