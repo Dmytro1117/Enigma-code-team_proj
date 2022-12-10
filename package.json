@@ -1,21 +1,28 @@
 {
-  "name": "parcel-project-template",
-  "version": "2.0.0",
+  "name": "goit-js-team-project",
+  "version": "1.0.0",
+  "homepage": "https://github.com/Dima-Davidenko/goit-js-team-project",
   "description": "",
-  "homepage": "https://Dmytro1117.github.io/team_proj",
+  "source": "src/index.html",
+  "targets": {
+    "default": {
+      "distDir": "./output",
+      "publicUrl": "/goit-js-team-project/"
+    }
+  },
   "scripts": {
-    "start": "parcel src/index.html",
-    "build": "parcel build src/*.html --public-url /team_proj/"
+    "start": "parcel --open --no-cache --port 7777",
+    "build": "parcel build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
+    "url": "git+https://github.com/Dima-Davidenko/goit-js-team-project.git"
   },
   "keywords": [],
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+    "url": "https://github.com/Dima-Davidenko/goit-js-team-project/issues"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.8.0",
