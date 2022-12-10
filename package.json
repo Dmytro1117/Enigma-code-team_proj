@@ -1,7 +1,7 @@
 {
   "name": "goit-js-team-project",
   "version": "1.0.0",
-  "homepage": "https://dmytro1117.github.io/team_proj/",
+  "homepage": "https://github.com/Dima-Davidenko/goit-js-team-project",
   "description": "",
   "source": "src/index.html",
   "targets": {
@@ -11,8 +11,8 @@
     }
   },
   "scripts": {
-    "start": "parcel src/index.html",
-    "build": "parcel build src/*.html --public-url /team_proj/"
+    "start": "parcel --open --no-cache --port 7777",
+    "build": "parcel build"
   },
   "repository": {
     "type": "git",
@@ -26,6 +26,7 @@
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.8.0",
+    "buffer": "^5.7.1",
     "os-browserify": "^0.3.0",
     "parcel": "^2.8.0",
     "parcel-reporter-clean-dist": "^1.0.4",
@@ -36,9 +37,13 @@
   },
   "dependencies": {
     "axios": "^1.2.0",
+    "basiclightbox": "^5.0.4",
     "dotenv": "^16.0.3",
     "firebase": "^9.14.0",
-    "modern-normalize": "^1.1.0"
+    "lodash.throttle": "^4.1.1",
+    "modern-normalize": "^1.1.0",
+    "notiflix": "^3.2.5",
+    "tui-pagination": "^3.4.1"
   },
   "browserslist": "> 0.5%, last 2 versions, not dead"
 }

@@ -2,7 +2,7 @@ name: Build and deploy to GitHub Pages
 
 on:
   push:
-    branches: [dev]
+    branches: [main]
 
 jobs:
   build-and-deploy:
@@ -15,6 +15,8 @@ jobs:
         run: |
           touch .env
           echo FIREBASE_CONFIG = ${{secrets.FIREBASE_CONFIG}}  >> .env
+          echo TMDB_KEY = ${{secrets.TMDB_KEY}}  >> .env
+          echo GOOGLE_SEARCH_KEY = ${{secrets.GOOGLE_SEARCH_KEY}}  >> .env
 
       - name: Install and Build 🔧
         run: |
